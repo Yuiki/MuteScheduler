@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/layoutAdd"
+              android:orientation="vertical"
+              android:padding="2dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startTime"
+            android:id="@+id/textView"
+            />
+
+    <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/timePickerStart"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endTime"
+            android:id="@+id/textView4"/>
+
+    <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/timePickerEnd"
+            android:timePickerMode="spinner"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/repetition"
+            android:id="@+id/textView2"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sun"
+                android:id="@+id/checkBoxSun"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mon"
+                android:id="@+id/checkBoxMon"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tue"
+                android:id="@+id/checkBoxTue"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wed"
+                android:id="@+id/checkBoxWed"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thu"
+                android:id="@+id/checkBoxThu"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fri"
+                android:id="@+id/checkBoxFri"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sat"
+                android:id="@+id/checkBoxSat"
+                android:checked="true"
+                android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:id="@+id/textView3"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/media"
+                android:id="@+id/checkBoxMedia"
+                android:checked="true"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ring"
+                android:id="@+id/checkBoxRing"
+                android:checked="true"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm"
+                android:id="@+id/checkBoxAlarm"
+                android:checked="false"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

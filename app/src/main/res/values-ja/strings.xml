@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mute Scheduler</string>
+    <string name="add">追加</string>
+    <string name="action_settings">設定</string>
+    <string name="cancel">キャンセル</string>
+    <string name="review">このアプリをレビューする</string>
+    <string name="license">ライセンス</string>
+    <string name="startTime">開始時間</string>
+    <string name="endTime">終了時間</string>
+    <string name="repetition">繰り返し</string>
+    <string name="sun">日</string>
+    <string name="mon">月</string>
+    <string name="tue">火</string>
+    <string name="wed">水</string>
+    <string name="fri">金</string>
+    <string name="sat">土</string>
+    <string name="alarm">アラーム</string>
+    <string name="ring">着信音</string>
+    <string name="media">メディア</string>
+    <string name="type">種類</string>
+    <string name="thu">木</string>
+    <string name="version">バージョン</string>
+    <string name="disabled">無効</string>
+    <string name="enabled">有効</string>
+    <string name="delete">削除</string>
+    <string name="enabledSchedule">有効にしました</string>
+    <string name="onOff">オン/オフ</string>
+    <string name="disabledSchedule">無効にしました</string>
+    <string name="addSchedule">スケジュール追加</string>
+    <string name="setting">設定</string>
+    <string name="deleted">削除しました</string>
+    <string name="failed">追加に失敗しました</string>
+</resources>
